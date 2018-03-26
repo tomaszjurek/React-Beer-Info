@@ -1,0 +1,54 @@
+@import "colors";
+
+#search {
+ color: $textColor;
+ width: 30%;
+ margin: 0;
+ border-bottom: 2px solid $textColor;
+  &:focus {
+   border-bottom: 2px solid $borderButtonColor;
+   box-shadow: none;
+  }
+  &::placeholder {
+    color: $textColor;
+  }
+}
+
+.search-box {
+  padding: 0 25px;
+  button {
+    margin-left: 15px;
+  }
+}
+
+.navbar-fixed {
+  z-index:9999;
+}
+
+.progress-container {
+  background-color: rgba(150, 150, 150, 0.6);
+  height: 8px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.progress-bar {
+  background-color: $borderButtonColor;
+  height: 8px;
+  width: 0%;
+  z-index: 1000;
+}
+
+ul#nav-mobile.side-nav {
+  width: 45%;
+  .search-box {
+    #search {
+      width: 100%;
+      color: $borderButtonColor;
+      &::placeholder {
+        color: $borderButtonColor;
+      }
+    }
+  }
+}
