@@ -3,12 +3,12 @@ Built in React. Search through beers from PUNK API.
 There is a progress bar, sort button, infinite scroll and when you click on one of the beers, more details will be shown in modal.
 
 ## Live preview
-
+https://tomaszjurek.github.io/React-Beer-Info/.
 
 
 ## Getting Started
 ```
-git clone 
+git clone https://github.com/tomaszjurek/React-Beer-Info.git
 ```
 
 ## Start
